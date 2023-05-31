@@ -1,0 +1,14 @@
+
+type Query {
+    exampleQuery(input: TestInput!): TestOutput!
+}
+
+input TestInput {
+    id: Int!
+}
+
+type TestOutput {
+    ok: Boolean!
+}
+
+
